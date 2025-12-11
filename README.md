@@ -1,6 +1,6 @@
-🌿 Cotton Disease Prediction 
+ Cotton Disease Prediction 
 
-🧠 Overview
+ Overview
 
 This project uses a deep learning model (InceptionV3–based CNN) to classify cotton leaf diseases.
 The application is deployed using Flask, where users can upload an image and get predictions instantly.
@@ -12,7 +12,7 @@ This project demonstrates:
 	•	Flask-based web deployment
 	•	Real-time image classification workflow
 
-🚀 Tech Stack
+ Tech Stack
 
 Machine Learning / Deep Learning
 	•	TensorFlow / Keras
@@ -29,7 +29,7 @@ Tools
 	•	Git & GitHub
 	•	Google Colab / Jupyter Notebook for training
 
-📁 Project Structure
+ Project Structure
 
 Cotton-Disease-Prediction/
 │
@@ -48,14 +48,14 @@ Cotton-Disease-Prediction/
 │
 └── static/                    # CSS, JS, Images
 
-🎯 Model File (Important)
+ Model File (Important)
 
 The trained model file (incep.h5) is NOT included in this repository because:
 	1.	GitHub does not support large binary files (>100MB)
 	2.	Model files are usually stored externally (Drive/S3)
 	3.	This keeps the repository lightweight
 
-👉 Download the trained model from here:
+ Download the trained model from here:
 
 https://drive.google.com/file/d/1R_0u7eGQGP1iIYM1QQQ5CpEIZDX46na-/view
 
@@ -65,7 +65,7 @@ Cotton-Disease-Prediction/
     app.py
     incep.h5    ← place here
 
-🔧 How to Run the Project
+ How to Run the Project
 
 1. Install Dependencies
 
@@ -81,7 +81,7 @@ http://127.0.0.1:5000/
 
 Upload an image → get predictions.
 
-🧪 Model Training (Summary)
+ Model Training (Summary)
 
 The model uses transfer learning based on Google’s InceptionV3:
 	•	Input images resized to 299×299 × 3
@@ -100,18 +100,18 @@ x = Dense(num_classes, activation='softmax')(x)
 model = Model(inputs=base.input, outputs=x)
 model.save("incep.h5")
 
-📝 Features
+ Features
 
-✔ Predicts cotton leaf disease from images
-✔ Clean Flask interface
-✔ Transfer learning boosts accuracy
-✔ Easy to deploy and extend
+ Predicts cotton leaf disease from images
+ Clean Flask interface
+ Transfer learning boosts accuracy
+ Easy to deploy and extend
 
-🌐 Future Enhancements
+ Future Enhancements
 	•	Deploy on AWS/GCP
 	•	Add more crop diseases
 	•	Convert model to TensorFlow Lite for mobile
 
-🙋‍♂️ Author
+ Author
 MD RUHAAN
 Software Engineer
