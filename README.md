@@ -1,12 +1,4 @@
-# Cotton-plant-disease-prediction-using-CNN-and-Flask
-It uses  a deep learning model (InceptionV3 based CNN) to  classify cotton leaf diseases. The application is deployed using Flask, where users can upload an image and get predictions instantly.
-Done. I’ll give you a clean, professional, interviewer-proof README that makes your project look legit and technically solid — without needing to upload the .h5 file.
-
-Use this exact README.md in your GitHub repo.
-
-⸻
-
-🌿 Cotton Disease Prediction — README.md (Copy/Paste This)
+🌿 Cotton Disease Prediction 
 
 🧠 Overview
 
@@ -19,8 +11,6 @@ This project demonstrates:
 	•	Model training and evaluation
 	•	Flask-based web deployment
 	•	Real-time image classification workflow
-
-⸻
 
 🚀 Tech Stack
 
@@ -38,8 +28,6 @@ Tools
 	•	VS Code
 	•	Git & GitHub
 	•	Google Colab / Jupyter Notebook for training
-
-⸻
 
 📁 Project Structure
 
@@ -60,9 +48,6 @@ Cotton-Disease-Prediction/
 │
 └── static/                    # CSS, JS, Images
 
-
-⸻
-
 🎯 Model File (Important)
 
 The trained model file (incep.h5) is NOT included in this repository because:
@@ -80,9 +65,6 @@ Cotton-Disease-Prediction/
     app.py
     incep.h5    ← place here
 
-
-⸻
-
 🔧 How to Run the Project
 
 1. Install Dependencies
@@ -98,8 +80,6 @@ python app.py
 http://127.0.0.1:5000/
 
 Upload an image → get predictions.
-
-⸻
 
 🧪 Model Training (Summary)
 
@@ -120,9 +100,6 @@ x = Dense(num_classes, activation='softmax')(x)
 model = Model(inputs=base.input, outputs=x)
 model.save("incep.h5")
 
-
-⸻
-
 📝 Features
 
 ✔ Predicts cotton leaf disease from images
@@ -130,29 +107,11 @@ model.save("incep.h5")
 ✔ Transfer learning boosts accuracy
 ✔ Easy to deploy and extend
 
-⸻
-
 🌐 Future Enhancements
 	•	Deploy on AWS/GCP
 	•	Add more crop diseases
 	•	Convert model to TensorFlow Lite for mobile
 
-⸻
-
 🙋‍♂️ Author
-
-Your Name
-Machine Learning / Python Developer
-GitHub: your-github-profile
-
-⸻
-
-🔥 This README looks professional and interviewer-ready.
-
-If you want:
-	•	A project explanation in STAR format
-	•	A walkthrough for HR / Technical interviewer
-	•	A portfolio version
-	•	A YouTube video script for your project
-
-Just say “Prepare interview explanation” and I’ll do it.
+MD RUHAAN
+Software Engineer
